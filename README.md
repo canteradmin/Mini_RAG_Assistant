@@ -16,21 +16,16 @@ Ask questions about your documents — stored either **locally** (uploaded files
 
 ### Project Structure
 mini-rag-assistant/
-├── app.py                  # Main Streamlit app
-├── prompts.py              # System prompt and message builder
-├── .env                    # Environment variables (API keys) – NOT in git!
-├── requirements.txt        # Dependencies
-├── knowledge_base/         # Local uploaded documents (auto-created)
-├── knowledge_base_vectorstore/  # FAISS vector store (auto-created)
-└── docs/                   # Documentation (optional)
-mini-rag-assistant/
-├── app.py
-├── prompts.py
-├── .env
-├── requirements.txt
-├── knowledge_base/
-├── knowledge_base_vectorstore/
-└── docs/
+├── app.py                      # Main Streamlit application
+├── prompts.py                  # System prompt and prompt builder logic
+├── .env                        # Environment variables (API keys) – NOT committed
+├── RAG.env                     # Optional alternative env file
+├── requirements.txt            # Python dependencies
+├── knowledge_base/             # Uploaded documents (auto-created)
+├── knowledge_base_vectorstore/ # FAISS vector store (auto-created)
+└── docs/                       # Optional documentation
+
+
 
 
 ### Setup & Installation
