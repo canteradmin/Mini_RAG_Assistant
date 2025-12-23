@@ -61,17 +61,3 @@ App loads documents from your Azure container
 Ask questions in the text input box
 View answer, metrics, and retrieved chunks
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-IssueSolution"OPENAI_API_KEY not found"Check .env / RAG.env exists and has correct key401 Invalid API KeyGenerate a new key from https://platform.openai.com/account/api-keysNo documents loadedUpload files (Local) or check Azure container (Cloud)Azure load failsVerify connection string and container name
