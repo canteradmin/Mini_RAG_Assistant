@@ -61,20 +61,6 @@ App loads documents from your Azure container
 Ask questions in the text input box
 View answer, metrics, and retrieved chunks
 
-Troubleshooting
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
