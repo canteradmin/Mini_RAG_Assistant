@@ -23,6 +23,14 @@ mini-rag-assistant/
 ├── knowledge_base/         # Local uploaded documents (auto-created)
 ├── knowledge_base_vectorstore/  # FAISS vector store (auto-created)
 └── docs/                   # Documentation (optional)
+mini-rag-assistant/
+├── app.py
+├── prompts.py
+├── .env
+├── requirements.txt
+├── knowledge_base/
+├── knowledge_base_vectorstore/
+└── docs/
 
 
 ### Setup & Installation
